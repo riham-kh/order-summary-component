@@ -1,0 +1,136 @@
+html {
+  height: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #E0E8FF; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  background-image: url("../../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  height: 100%;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif; }
+
+@media only screen and (max-width: 600px) {
+  div.card .card__hero {
+    margin-bottom: 32px; }
+  div.card .card__body--title h2 {
+    font-size: 22px;
+    line-height: 29px; }
+  div.card .card__body--description p {
+    font-size: 15px;
+    line-height: 25px; }
+  div.card .card__body--plan {
+    padding: 17px 16px 16px 16px;
+    margin-bottom: 24px; }
+  div.card .card__body--plan .price,
+  div.card .card__body--plan .type {
+    font-size: 14px;
+    line-height: 19px; }
+  div.card .card__body--plan .cta a {
+    font-size: 13px;
+    line-height: 17px; }
+  div.card .card__body--actions .btn-secondary {
+    margin: 24px auto 32px auto; } }
+
+.container {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px; }
+  .container .card {
+    background-color: white;
+    box-shadow: 0 40px 40px #0d30bd15;
+    border-radius: 20px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .container .card__hero {
+      margin-bottom: 45px; }
+      .container .card__hero img {
+        border-radius: 20px 20px 0 0;
+        max-width: 100%;
+        height: auto;
+        vertical-align: bottom; }
+    .container .card__body {
+      padding: 0px 24px; }
+      .container .card__body--title h2 {
+        color: #1f2e55;
+        margin: 0;
+        margin-bottom: 17px;
+        text-align: center;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 37px; }
+      .container .card__body--description p {
+        color: #717fa6;
+        font-weight: 500;
+        margin: 0;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 354px; }
+      .container .card__body--actions {
+        max-width: 354px;
+        width: 100%; }
+        .container .card__body--actions .btn {
+          outline: none;
+          border: none;
+          display: block;
+          cursor: pointer;
+          background: none;
+          font-size: 15px;
+          font-weight: 900; }
+          .container .card__body--actions .btn-primary {
+            background-color: #382ae1;
+            width: 100%;
+            color: white;
+            padding: 15px 4px;
+            box-shadow: 0px 20px 20px #382ae119;
+            border-radius: 11px;
+            line-height: 20px; }
+          .container .card__body--actions .btn-secondary {
+            color: #717fa6;
+            line-height: 20px;
+            margin: 32px auto 48px auto;
+            padding: 0px; }
+      .container .card__body--plan {
+        background-color: #f7f9ff;
+        border-radius: 11px;
+        padding: 25px 24px;
+        margin-bottom: 32px;
+        display: flex;
+        align-items: flex-start; }
+        .container .card__body--plan img {
+          vertical-align: bottom;
+          margin-right: 20px; }
+        .container .card__body--plan .type {
+          margin: 0;
+          font-weight: 900;
+          font-size: 16px;
+          line-height: 21px;
+          color: #1f2e55; }
+        .container .card__body--plan .price {
+          margin-bottom: 0;
+          margin-top: 6px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 21px;
+          color: #717fa6; }
+        .container .card__body--plan .cta {
+          margin-left: auto;
+          align-self: center; }
+          .container .card__body--plan .cta a {
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 19px;
+            text-decoration-line: underline;
+            color: #382ae1; }

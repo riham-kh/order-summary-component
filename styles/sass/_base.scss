@@ -1,0 +1,20 @@
+html {
+  height: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #E0E8FF;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+  background-image: url('../../images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  height: 100%;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}

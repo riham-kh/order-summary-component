@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px) {
+  div.card {
+    .card__hero {
+      margin-bottom: 32px;
+    }
+
+    .card__body--title h2 {
+      font-size: 22px;
+      line-height: 29px;
+    }
+
+    .card__body--description p {
+      font-size: 15px;
+      line-height: 25px;
+    }
+
+    .card__body--plan {
+      padding: 17px 16px 16px 16px;
+      margin-bottom: 24px;
+    }
+
+    .card__body--plan .price,
+    .card__body--plan .type {
+      font-size: 14px;
+      line-height: 19px;
+    }
+
+    .card__body--plan .cta a {
+      font-size: 13px;
+      line-height: 17px;
+    }
+
+    .card__body--actions .btn-secondary {
+      margin: 24px auto 32px auto;
+    }
+  }
+}
