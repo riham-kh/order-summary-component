@@ -97,11 +97,15 @@ body {
             box-shadow: 0px 20px 20px #382ae119;
             border-radius: 11px;
             line-height: 20px; }
+            .container .card__body--actions .btn-primary:hover {
+              background-color: #766CF1; }
           .container .card__body--actions .btn-secondary {
             color: #717fa6;
             line-height: 20px;
             margin: 32px auto 48px auto;
             padding: 0px; }
+            .container .card__body--actions .btn-secondary:hover {
+              color: #1F2E55; }
       .container .card__body--plan {
         background-color: #f7f9ff;
         border-radius: 11px;
@@ -134,3 +138,6 @@ body {
             line-height: 19px;
             text-decoration-line: underline;
             color: #382ae1; }
+            .container .card__body--plan .cta a:hover {
+              color: #766CF1;
+              text-decoration: none; }

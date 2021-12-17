@@ -68,6 +68,10 @@
             box-shadow: 0px 20px 20px #382ae119;
             border-radius: 11px;
             line-height: 20px;
+
+            &:hover {
+              background-color: #766CF1;
+            }
           }
 
           &-secondary {
@@ -75,6 +79,10 @@
             line-height: 20px;
             margin: 32px auto 48px auto;
             padding: 0px;
+
+            &:hover {
+              color: #1F2E55;
+            }
           }
         }
       }
@@ -119,6 +127,11 @@
             line-height: 19px;
             text-decoration-line: underline;
             color: #382ae1;
+
+            &:hover {
+              color: #766CF1;
+              text-decoration: none;
+            }
           }
         }
       }
